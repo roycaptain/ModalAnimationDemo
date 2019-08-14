@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0C1F73C2303DFD700ADBF0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1F73B2303DFD700ADBF0B /* AppDelegate.m */; };
+		B0C1F73F2303DFD700ADBF0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1F73E2303DFD700ADBF0B /* ViewController.m */; };
+		B0C1F7422303DFD700ADBF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C1F7402303DFD700ADBF0B /* Main.storyboard */; };
+		B0C1F7442303DFD900ADBF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0C1F7432303DFD900ADBF0B /* Assets.xcassets */; };
+		B0C1F7472303DFD900ADBF0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0C1F7452303DFD900ADBF0B /* LaunchScreen.storyboard */; };
+		B0C1F74A2303DFD900ADBF0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1F7492303DFD900ADBF0B /* main.m */; };
+		B0C1F7542303DFD900ADBF0B /* ModalAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1F7532303DFD900ADBF0B /* ModalAnimationDemoTests.m */; };
+		B0C1F75F2303DFD900ADBF0B /* ModalAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1F75E2303DFD900ADBF0B /* ModalAnimationDemoUITests.m */; };
+		B0C1F76F2303E5FF00ADBF0B /* OneController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1F76E2303E5FF00ADBF0B /* OneController.m */; };
+		B0C1F7722303E75E00ADBF0B /* OnePresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1F7712303E75E00ADBF0B /* OnePresentationController.m */; };
+		B0C1F7762303EF9000ADBF0B /* TwoPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1F7752303EF9000ADBF0B /* TwoPresentationController.m */; };
+		B0C1F7792303EFA400ADBF0B /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C1F7782303EFA400ADBF0B /* TwoController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0C1F7502303DFD900ADBF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0C1F72F2303DFD700ADBF0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0C1F7362303DFD700ADBF0B;
+			remoteInfo = ModalAnimationDemo;
+		};
+		B0C1F75B2303DFD900ADBF0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0C1F72F2303DFD700ADBF0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0C1F7362303DFD700ADBF0B;
+			remoteInfo = ModalAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0C1F7372303DFD700ADBF0B /* ModalAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C1F73A2303DFD700ADBF0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0C1F73B2303DFD700ADBF0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0C1F73D2303DFD700ADBF0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0C1F73E2303DFD700ADBF0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0C1F7412303DFD700ADBF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0C1F7432303DFD900ADBF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0C1F7462303DFD900ADBF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0C1F7482303DFD900ADBF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C1F7492303DFD900ADBF0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0C1F74F2303DFD900ADBF0B /* ModalAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C1F7532303DFD900ADBF0B /* ModalAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalAnimationDemoTests.m; sourceTree = "<group>"; };
+		B0C1F7552303DFD900ADBF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C1F75A2303DFD900ADBF0B /* ModalAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C1F75E2303DFD900ADBF0B /* ModalAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalAnimationDemoUITests.m; sourceTree = "<group>"; };
+		B0C1F7602303DFD900ADBF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0C1F76D2303E5FF00ADBF0B /* OneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneController.h; sourceTree = "<group>"; };
+		B0C1F76E2303E5FF00ADBF0B /* OneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneController.m; sourceTree = "<group>"; };
+		B0C1F7702303E75E00ADBF0B /* OnePresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnePresentationController.h; sourceTree = "<group>"; };
+		B0C1F7712303E75E00ADBF0B /* OnePresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnePresentationController.m; sourceTree = "<group>"; };
+		B0C1F7742303EF9000ADBF0B /* TwoPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoPresentationController.h; sourceTree = "<group>"; };
+		B0C1F7752303EF9000ADBF0B /* TwoPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoPresentationController.m; sourceTree = "<group>"; };
+		B0C1F7772303EFA400ADBF0B /* TwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoController.h; sourceTree = "<group>"; };
+		B0C1F7782303EFA400ADBF0B /* TwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0C1F7342303DFD700ADBF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C1F74C2303DFD900ADBF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C1F7572303DFD900ADBF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0C1F72E2303DFD700ADBF0B = {
+			isa = PBXGroup;
+			children = (
+				B0C1F7392303DFD700ADBF0B /* ModalAnimationDemo */,
+				B0C1F7522303DFD900ADBF0B /* ModalAnimationDemoTests */,
+				B0C1F75D2303DFD900ADBF0B /* ModalAnimationDemoUITests */,
+				B0C1F7382303DFD700ADBF0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0C1F7382303DFD700ADBF0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0C1F7372303DFD700ADBF0B /* ModalAnimationDemo.app */,
+				B0C1F74F2303DFD900ADBF0B /* ModalAnimationDemoTests.xctest */,
+				B0C1F75A2303DFD900ADBF0B /* ModalAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0C1F7392303DFD700ADBF0B /* ModalAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B0C1F7732303EF7000ADBF0B /* Two */,
+				B0C1F76C2303E5E000ADBF0B /* One */,
+				B0C1F73A2303DFD700ADBF0B /* AppDelegate.h */,
+				B0C1F73B2303DFD700ADBF0B /* AppDelegate.m */,
+				B0C1F73D2303DFD700ADBF0B /* ViewController.h */,
+				B0C1F73E2303DFD700ADBF0B /* ViewController.m */,
+				B0C1F7402303DFD700ADBF0B /* Main.storyboard */,
+				B0C1F7432303DFD900ADBF0B /* Assets.xcassets */,
+				B0C1F7452303DFD900ADBF0B /* LaunchScreen.storyboard */,
+				B0C1F7482303DFD900ADBF0B /* Info.plist */,
+				B0C1F7492303DFD900ADBF0B /* main.m */,
+			);
+			path = ModalAnimationDemo;
+			sourceTree = "<group>";
+		};
+		B0C1F7522303DFD900ADBF0B /* ModalAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0C1F7532303DFD900ADBF0B /* ModalAnimationDemoTests.m */,
+				B0C1F7552303DFD900ADBF0B /* Info.plist */,
+			);
+			path = ModalAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		B0C1F75D2303DFD900ADBF0B /* ModalAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0C1F75E2303DFD900ADBF0B /* ModalAnimationDemoUITests.m */,
+				B0C1F7602303DFD900ADBF0B /* Info.plist */,
+			);
+			path = ModalAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		B0C1F76C2303E5E000ADBF0B /* One */ = {
+			isa = PBXGroup;
+			children = (
+				B0C1F76D2303E5FF00ADBF0B /* OneController.h */,
+				B0C1F76E2303E5FF00ADBF0B /* OneController.m */,
+				B0C1F7702303E75E00ADBF0B /* OnePresentationController.h */,
+				B0C1F7712303E75E00ADBF0B /* OnePresentationController.m */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		B0C1F7732303EF7000ADBF0B /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				B0C1F7772303EFA400ADBF0B /* TwoController.h */,
+				B0C1F7782303EFA400ADBF0B /* TwoController.m */,
+				B0C1F7742303EF9000ADBF0B /* TwoPresentationController.h */,
+				B0C1F7752303EF9000ADBF0B /* TwoPresentationController.m */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0C1F7362303DFD700ADBF0B /* ModalAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C1F7632303DFD900ADBF0B /* Build configuration list for PBXNativeTarget "ModalAnimationDemo" */;
+			buildPhases = (
+				B0C1F7332303DFD700ADBF0B /* Sources */,
+				B0C1F7342303DFD700ADBF0B /* Frameworks */,
+				B0C1F7352303DFD700ADBF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalAnimationDemo;
+			productName = ModalAnimationDemo;
+			productReference = B0C1F7372303DFD700ADBF0B /* ModalAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0C1F74E2303DFD900ADBF0B /* ModalAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C1F7662303DFD900ADBF0B /* Build configuration list for PBXNativeTarget "ModalAnimationDemoTests" */;
+			buildPhases = (
+				B0C1F74B2303DFD900ADBF0B /* Sources */,
+				B0C1F74C2303DFD900ADBF0B /* Frameworks */,
+				B0C1F74D2303DFD900ADBF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0C1F7512303DFD900ADBF0B /* PBXTargetDependency */,
+			);
+			name = ModalAnimationDemoTests;
+			productName = ModalAnimationDemoTests;
+			productReference = B0C1F74F2303DFD900ADBF0B /* ModalAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0C1F7592303DFD900ADBF0B /* ModalAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0C1F7692303DFD900ADBF0B /* Build configuration list for PBXNativeTarget "ModalAnimationDemoUITests" */;
+			buildPhases = (
+				B0C1F7562303DFD900ADBF0B /* Sources */,
+				B0C1F7572303DFD900ADBF0B /* Frameworks */,
+				B0C1F7582303DFD900ADBF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0C1F75C2303DFD900ADBF0B /* PBXTargetDependency */,
+			);
+			name = ModalAnimationDemoUITests;
+			productName = ModalAnimationDemoUITests;
+			productReference = B0C1F75A2303DFD900ADBF0B /* ModalAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0C1F72F2303DFD700ADBF0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "llbt-sk";
+				TargetAttributes = {
+					B0C1F7362303DFD700ADBF0B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B0C1F74E2303DFD900ADBF0B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B0C1F7362303DFD700ADBF0B;
+					};
+					B0C1F7592303DFD900ADBF0B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B0C1F7362303DFD700ADBF0B;
+					};
+				};
+			};
+			buildConfigurationList = B0C1F7322303DFD700ADBF0B /* Build configuration list for PBXProject "ModalAnimationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0C1F72E2303DFD700ADBF0B;
+			productRefGroup = B0C1F7382303DFD700ADBF0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0C1F7362303DFD700ADBF0B /* ModalAnimationDemo */,
+				B0C1F74E2303DFD900ADBF0B /* ModalAnimationDemoTests */,
+				B0C1F7592303DFD900ADBF0B /* ModalAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0C1F7352303DFD700ADBF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C1F7472303DFD900ADBF0B /* LaunchScreen.storyboard in Resources */,
+				B0C1F7442303DFD900ADBF0B /* Assets.xcassets in Resources */,
+				B0C1F7422303DFD700ADBF0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C1F74D2303DFD900ADBF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C1F7582303DFD900ADBF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0C1F7332303DFD700ADBF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C1F76F2303E5FF00ADBF0B /* OneController.m in Sources */,
+				B0C1F7792303EFA400ADBF0B /* TwoController.m in Sources */,
+				B0C1F73F2303DFD700ADBF0B /* ViewController.m in Sources */,
+				B0C1F74A2303DFD900ADBF0B /* main.m in Sources */,
+				B0C1F73C2303DFD700ADBF0B /* AppDelegate.m in Sources */,
+				B0C1F7762303EF9000ADBF0B /* TwoPresentationController.m in Sources */,
+				B0C1F7722303E75E00ADBF0B /* OnePresentationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C1F74B2303DFD900ADBF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C1F7542303DFD900ADBF0B /* ModalAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C1F7562303DFD900ADBF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C1F75F2303DFD900ADBF0B /* ModalAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0C1F7512303DFD900ADBF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0C1F7362303DFD700ADBF0B /* ModalAnimationDemo */;
+			targetProxy = B0C1F7502303DFD900ADBF0B /* PBXContainerItemProxy */;
+		};
+		B0C1F75C2303DFD900ADBF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0C1F7362303DFD700ADBF0B /* ModalAnimationDemo */;
+			targetProxy = B0C1F75B2303DFD900ADBF0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0C1F7402303DFD700ADBF0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C1F7412303DFD700ADBF0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0C1F7452303DFD900ADBF0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0C1F7462303DFD900ADBF0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0C1F7612303DFD900ADBF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0C1F7622303DFD900ADBF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0C1F7642303DFD900ADBF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U363EXB76;
+				INFOPLIST_FILE = ModalAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zh.ModalAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0C1F7652303DFD900ADBF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U363EXB76;
+				INFOPLIST_FILE = ModalAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zh.ModalAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0C1F7672303DFD900ADBF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U363EXB76;
+				INFOPLIST_FILE = ModalAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zh.ModalAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalAnimationDemo.app/ModalAnimationDemo";
+			};
+			name = Debug;
+		};
+		B0C1F7682303DFD900ADBF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U363EXB76;
+				INFOPLIST_FILE = ModalAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zh.ModalAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModalAnimationDemo.app/ModalAnimationDemo";
+			};
+			name = Release;
+		};
+		B0C1F76A2303DFD900ADBF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U363EXB76;
+				INFOPLIST_FILE = ModalAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zh.ModalAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModalAnimationDemo;
+			};
+			name = Debug;
+		};
+		B0C1F76B2303DFD900ADBF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U363EXB76;
+				INFOPLIST_FILE = ModalAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zh.ModalAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModalAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0C1F7322303DFD700ADBF0B /* Build configuration list for PBXProject "ModalAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C1F7612303DFD900ADBF0B /* Debug */,
+				B0C1F7622303DFD900ADBF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C1F7632303DFD900ADBF0B /* Build configuration list for PBXNativeTarget "ModalAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C1F7642303DFD900ADBF0B /* Debug */,
+				B0C1F7652303DFD900ADBF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C1F7662303DFD900ADBF0B /* Build configuration list for PBXNativeTarget "ModalAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C1F7672303DFD900ADBF0B /* Debug */,
+				B0C1F7682303DFD900ADBF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0C1F7692303DFD900ADBF0B /* Build configuration list for PBXNativeTarget "ModalAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C1F76A2303DFD900ADBF0B /* Debug */,
+				B0C1F76B2303DFD900ADBF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0C1F72F2303DFD700ADBF0B /* Project object */;
+}
